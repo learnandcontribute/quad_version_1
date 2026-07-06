@@ -23,7 +23,7 @@
 
 <nav class="nav" id="nav">
   <div class="container nav__inner">
-    <a href="index.html" class="nav__logo">Quad Rent Zagreb<small>Najam quadova · okolica Zagreba</small></a>
+    <a href="index.html" class="nav__logo" style="display:inline-flex;align-items:center;gap:0.6rem"><img src="logo_quad_zagreb.svg" alt="Quad Rent Zagreb" style="height:44px;width:auto;display:block"><span style="display:inline-block">Quad Rent Zagreb<small>Najam quadova · okolica Zagreba</small></span></a>
     <div class="nav__links">
       <a href="quad.html" class="active">Flota</a>
       <a href="obitelj.html">Obitelj</a>
@@ -68,7 +68,7 @@
 <section class="page-section reveal" id="segway">
   <div class="container">
     <div style="display:grid;grid-template-columns:1fr;gap:1.5rem" class="model-grid">
-      <div class="ph" style="border-radius:var(--r-xl);min-height:300px;aspect-ratio:16/10"><span>Foto — Segway AT5L na terenu</span></div>
+      <div style="border-radius:var(--r-xl);min-height:300px;aspect-ratio:16/10;overflow:hidden"><img src="img/quad-segway-hero.jpg" alt="Segway AT5L na terenu" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"></div>
       <div>
         <span class="chip chip--accent mb-2">4 vozila u floti</span>
         <h2 class="section-title mt-1">Segway AT5L</h2>
@@ -80,12 +80,11 @@
           <div><div style="font-family:var(--font-d);font-weight:700;font-size:1.3rem">€100</div><div style="font-size:0.5rem;color:var(--text-3)">POLA DANA / 6H</div></div>
           <div><div style="font-family:var(--font-d);font-weight:700;font-size:1.3rem">€150</div><div style="font-size:0.5rem;color:var(--text-3)">CIJELI DAN / 12H</div></div>
         </div>
-        <button class="btn btn--accent mt-3" onclick="openBooking('standard','half')">Rezerviraj Segway AT5L →</button>
+        <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-top:1.2rem">
+          <button class="btn btn--accent" onclick="openBooking('standard','half')">Rezerviraj Segway AT5L →</button>
+          <a href="segway-at5l.html" class="btn btn--ghost">Pogledaj karakteristike →</a>
+        </div>
       </div>
-    </div>
-    <div class="grid-2 mt-3">
-      <div class="ph" style="border-radius:var(--r-md);aspect-ratio:4/3"><span>Foto — AT5L narančasti, profil</span></div>
-      <div class="ph" style="border-radius:var(--r-md);aspect-ratio:4/3"><span>Foto — AT5L bijeli, na stazi</span></div>
     </div>
   </div>
 </section>
@@ -94,7 +93,7 @@
 <section class="page-section page-section--border reveal" id="linhai550">
   <div class="container">
     <div style="display:grid;grid-template-columns:1fr;gap:1.5rem" class="model-grid">
-      <div class="ph" style="border-radius:var(--r-xl);min-height:300px;aspect-ratio:16/10;background:#1a1816"><span>Foto — Linhai 550L crni</span></div>
+      <div style="border-radius:var(--r-xl);min-height:300px;aspect-ratio:16/10;overflow:hidden;background:#1a1816"><img src="img/quad-linhai-550.jpg" alt="Linhai 550L Black Edition" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"></div>
       <div>
         <span class="chip mb-2">2 vozila u floti</span>
         <h2 class="section-title mt-1">Linhai 550L</h2>
@@ -116,7 +115,7 @@
 <section class="page-section reveal" id="linhai650">
   <div class="container">
     <div style="display:grid;grid-template-columns:1fr;gap:1.5rem" class="model-grid">
-      <div class="ph" style="border-radius:var(--r-xl);min-height:300px;aspect-ratio:16/10;background:#181a16"><span>Foto — Linhai 650 Landforce maskirni</span></div>
+      <div style="border-radius:var(--r-xl);min-height:300px;aspect-ratio:16/10;overflow:hidden;background:#181a16"><img src="img/quad-linhai-650.jpg" alt="Linhai 650 Landforce" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"></div>
       <div>
         <span class="chip chip--accent mb-2">2 vozila u floti</span>
         <h2 class="section-title mt-1">Linhai 650 Landforce</h2>
@@ -138,7 +137,7 @@
 <section class="page-section page-section--border reveal" id="linhai1000">
   <div class="container">
     <div style="display:grid;grid-template-columns:1fr;gap:1.5rem" class="model-grid">
-      <div class="ph" style="border-radius:var(--r-xl);min-height:300px;aspect-ratio:16/10;background:#1c1810;border:1px solid rgba(245,166,35,0.15)"><span>Foto — Linhai 1000, kralj terena</span></div>
+      <div style="border-radius:var(--r-xl);min-height:300px;aspect-ratio:16/10;overflow:hidden;background:#1c1810;border:1px solid rgba(245,166,35,0.15)"><img src="img/quad-linhai-1000.jpg" alt="Linhai 1000, kralj terena" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"></div>
       <div>
         <span class="chip chip--accent mb-2">2 vozila · Kraljevi terena</span>
         <h2 class="section-title mt-1">Linhai 1000</h2>
@@ -186,7 +185,7 @@
 <footer class="footer">
   <div class="container">
     <div class="footer__top">
-      <div class="footer__brand"><a href="index.html" class="nav__logo">Quad Rent Zagreb<small>Najam quadova · okolica Zagreba</small></a><p>10 novih quadova. 16 godina iskustva u auto-industriji.</p></div>
+      <div class="footer__brand"><a href="index.html" class="nav__logo" style="display:inline-flex;align-items:center;gap:0.6rem"><img src="logo_quad_zagreb.svg" alt="Quad Rent Zagreb" style="height:52px;width:auto;display:block"><span style="display:inline-block">Quad Rent Zagreb<small>Najam quadova · okolica Zagreba</small></span></a><p>10 novih quadova. 16 godina iskustva u auto-industriji.</p></div>
       <div><div class="footer__col-title">Stranice</div><ul class="footer__links"><li><a href="quad.html">Flota</a></li><li><a href="obitelj.html">Obitelj</a></li><li><a href="cijene.html">Cijene</a></li><li><a href="rute.html">Rute</a></li><li><a href="blog.html">Blog</a></li></ul></div>
       <div><div class="footer__col-title">Info</div><ul class="footer__links"><li><a href="faq.html">Pitanja</a></li><li><a href="kontakt.html">Kontakt</a></li></ul></div>
       <div><div class="footer__col-title">Kontakt</div><ul class="footer__links"><li><a href="https://wa.me/385955442541">WhatsApp</a></li><li><a href="tel:+385955442541">+385 95 544 2541</a></li></ul><div class="footer__socials mt-2"><a href="#">IG</a><a href="#">TT</a><a href="#">YT</a><a href="#">FB</a></div></div>
@@ -196,6 +195,9 @@
 </footer>
 
 <script src="main.js"></script>
-<style>@media(min-width:700px){.model-grid{grid-template-columns:1.2fr 1fr !important}}</style>
+<style>
+@media(min-width:700px){.model-grid{grid-template-columns:1.2fr 1fr !important}}
+@media(max-width:699px){.model-grid>div:first-child{aspect-ratio:3/2 !important;min-height:0 !important}.model-grid>div:first-child img{object-position:center 40%}}
+</style>
 </body>
 </html>
